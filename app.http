@@ -1,0 +1,12 @@
+###
+GET http://localhost:4000/bfhl
+
+###
+POST http://localhost:4000/bfhl
+
+{
+  "data": ["A", "b", "2", 100, "x", "Q", 1],
+  "file_b64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAACklEQVR4nGMAAQAABQABDQottAAAAABJRU5ErkJggg=="
+}
+
+###
